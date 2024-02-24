@@ -1,0 +1,225 @@
+  
+  
+  
+  header{
+    background-color: rgb(27, 204, 27);
+    font-family: monospace;
+    height: 100%; width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: small;
+   }
+   header:hover{
+    background-color: rgb(5, 255, 159);
+   }
+    
+   nav{
+    background-color: rgb(0, 255, 157);
+    padding: 10px;
+    height: 100%; width: 100%;
+
+   }
+li a:hover{
+background-color: rgb(29, 160, 94);
+font-size: 20px;
+}
+   ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+    overflow: hidden;
+    z-index: 100;
+   }
+
+   li{
+    float: left;
+    color: white ;
+   }
+   li a{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: left;
+   }
+   footer{
+    text-align: center;
+padding: 10px;
+background-color: rgb(0, 0, 0);
+color: white;
+bottom: 0;
+left: 0; 
+position: absolute;
+width: 100%; height:5%;
+
+display: block;
+
+
+    }
+
+    body{
+        background-color: seagreen;
+    }
+    footer:hover{
+        background-color: rgb(121, 121, 121)    ;
+    }
+         .dropdown{display: inline-block;}
+         .dd{display: inline-block;}
+         .phiola{display: inline-block;}
+         .Ladz{display: inline-block;}
+  .ddcontent{
+    display: none;
+    position: absolute;
+background-color: grey;
+min-width: 10px;      }
+
+.cwan{
+    display: none;
+    position:absolute;
+background-color: grey;
+min-width: 10px;      }
+
+.Yuan{
+    display: none;
+    position: absolute;
+background-color: grey;
+min-width: 10px;      }
+.Ong{
+    display: none;
+    position:absolute;
+background-color: grey;
+min-width: 10px;      }
+.dropdown:hover .ddcontent{
+display: inline;
+}
+
+.phiola:hover .Yuan{
+display: inline;
+}
+.Ladz:hover:hover .Ong{
+display: inline;
+}
+.dd:hover .cwan{
+display: inline;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+
+    .wrapper{
+        float: left;
+width: 33.33%;
+padding: 5px;
+    }
+
+    .image{
+        width: 300px;
+        position: sticky;
+    }
+
+   .mam{
+        width: 100%;
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        border-radius: 50%;
+    }
+    .content{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        opacity: 0;
+        transition: 0.3s;
+
+    }
+
+    .content:hover{
+        opacity: 1;
+        border-radius: 50%;
+    }
+    .content h1{
+        font-size: 20px;
+        color: aliceblue;
+        margin-bottom: 15px;
+    }
+    .content > *{
+        transform: translateY(20px);
+        transition: transform 0.1s;
+
+    }
+    .content:hover > *{
+        transform: translateY(0px);
+      
+        
+    }
+
+
+    .content:after {
+content: "";
+clear: both;
+display: table;
+}
+
+h1{
+padding: 10px;
+text-align: center;
+top: 0;
+
+
+}
+
+.column .srt
+{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+
+
+  }
+
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+  footer{
+    text-align: center;
+padding: 20px;
+background-color: rgb(30, 146, 45);
+color: white;
+bottom: 0;
+left: 0; 
+position: relative;
+width: 100%; height: 3%;
+
+
+display: block;
+
+
+    }
+    footer:hover{
+        background-color: rgb(53, 161, 71)    ;
+    }
